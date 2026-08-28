@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StudentConnect</string>
+    <string name="subtitle_registration">Student Registration &amp; Profile</string>
+    <string name="desc_profile_photo">Profile photo</string>
+    <string name="label_add_profile_photo">Add Profile Photo</string>
+    <string name="header_personal_info">Personal Information</string>
+    <string name="label_full_name">Full Name</string>
+    <string name="hint_full_name">Enter your full name</string>
+    <string name="label_usn">USN</string>
+    <string name="hint_usn">Enter your USN</string>
+    <string name="label_email_address">Email Address</string>
+    <string name="hint_email">Enter your email</string>
+    <string name="label_phone_number">Phone Number</string>
+    <string name="hint_phone">Enter phone number</string>
+    <string name="header_academic_info">Academic Information</string>
+    <string name="label_gender">Gender</string>
+    <string name="option_male">Male</string>
+    <string name="option_female">Female</string>
+    <string name="option_other">Other</string>
+    <string name="label_specialization">Specialization</string>
+    <string name="option_general">General</string>
+    <string name="option_ai_ml">AI &amp; ML</string>
+    <string name="option_data_science">Data Science</string>
+    <string name="option_cyber_security">Cyber Security</string>
+    <string name="header_skills_preferences">Skills &amp; Preferences</string>
+    <string name="skill_programming">Programming</string>
+    <string name="skill_iot">IoT</string>
+    <string name="skill_ai">Artificial Intelligence</string>
+    <string name="skill_web">Web Development</string>
+    <string name="label_notifications">Notifications</string>
+    <string name="toggle_on">ON</string>
+    <string name="toggle_off">OFF</string>
+    <string name="label_terms">I agree to the Terms &amp; Conditions</string>
+    <string name="btn_register">REGISTER NOW</string>
+    <string name="btn_clear">Clear Form</string>
+
+    <!-- Form Activity Strings -->
+    <string name="title_registration_form">STUDENT REGISTRATION FORM</string>
+    <string name="desc_select_profile">Select profile photo</string>
+    <string name="label_add_profile_caps">ADD PROFILE PHOTO</string>
+    <string name="hint_email_address">Enter your email address</string>
+    <string name="hint_mobile_number">Enter 10 digit mobile number</string>
+    <string name="label_phone_format">(10 digit number)</string>
+    <string name="btn_register_short">REGISTER</string>
+    <string name="btn_reset">RESET</string>
+
+    <!-- Result Activity Strings -->
+    <string name="title_registration_result"><u>REGISTRATION RESULT</u></string>
+    <string name="msg_registration_successful">Registration Successful</string>
+    <string name="msg_registration_successful_caps">REGISTRATION SUCCESSFUL</string>
+    <string name="msg_success_desc">You have been registered successfully.</string>
+    <string name="header_student_profile">Student Profile</string>
+    <string name="header_student_profile_caps">STUDENT PROFILE</string>
+    <string name="label_full_name_caps">FULL NAME</string>
+    <string name="label_usn_caps">USN</string>
+    <string name="label_email_id_caps">EMAIL ID</string>
+    <string name="label_mobile_number_caps">MOBILE NUMBER</string>
+    <string name="label_gender_caps">GENDER</string>
+    <string name="label_specialization_caps">SPECIALIZATION</string>
+    <string name="label_skills_interests_caps">SKILLS / INTERESTS</string>
+    <string name="label_notifications_caps">NOTIFICATIONS</string>
+    <string name="label_email">Email</string>
+    <string name="label_phone">Phone</string>
+    <string name="label_skills">Skills</string>
+    <string name="btn_back">BACK TO REGISTRATION</string>
+    <string name="label_registration_id_format">Registration ID: %1$s</string>
+    <string name="symbol_check">✓</string>
+
+    <!-- App Messages and Errors -->
+    <string name="msg_profile_photo_selected">Profile photo option selected</string>
+    <string name="error_enter_name">Please enter your name</string>
+    <string name="error_enter_usn">Please enter your USN</string>
+    <string name="error_enter_email">Please enter your email</string>
+    <string name="error_valid_email">Please enter a valid email</string>
+    <string name="error_enter_phone">Please enter your phone number</string>
+    <string name="error_valid_phone">Please enter a valid 10-digit phone number</string>
+    <string name="error_select_gender">Please select your gender</string>
+    <string name="error_select_specialization">Please select a specialization</string>
+    <string name="error_accept_terms">Please accept the Terms &amp; Conditions</string>
+    <string name="msg_form_cleared">Form cleared</string>
+    <string name="channel_name">Student Registration</string>
+    <string name="channel_desc">Notifications for student registration</string>
+    <string name="no_skills_selected">No skills selected</string>
+</resources>

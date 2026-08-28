@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fitsSystemWindows="true"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="18dp"
+        android:paddingBottom="24dp">
+
+        <!-- ================================================= -->
+        <!-- TITLE -->
+        <!-- ================================================= -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_registration_form"
+            android:textColor="@color/primary"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            tools:ignore="VisualLintSystemUi" />
+
+
+        <!-- ================================================= -->
+        <!-- MAIN REGISTRATION PANEL -->
+        <!-- ================================================= -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_registration_form"
+            android:padding="16dp">
+
+
+            <!-- ================================================= -->
+            <!-- PROFILE PHOTO -->
+            <!-- ================================================= -->
+
+            <ImageButton
+                android:id="@+id/btnProfile"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/white"
+                android:contentDescription="@string/desc_select_profile"
+                android:padding="8dp"
+                android:scaleType="centerCrop"
+                android:src="@android:drawable/ic_menu_camera"
+                tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_add_profile_caps"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="20dp" />
+
+
+            <!-- ================================================= -->
+            <!-- FULL NAME -->
+            <!-- ================================================= -->
+
+            <TextView
+                android:id="@+id/lblName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxWidth="488dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/label_full_name_caps"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="14dp"
+                android:autofillHints="name"
+                android:background="@drawable/bg_input"
+                android:hint="@string/hint_full_name"
+                android:imeOptions="actionNext"
+                android:inputType="textPersonName"
+                android:maxWidth="488dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textColor="@color/input_text"
+                android:textColorHint="#757575"
+                android:textSize="14sp"
+                tools:ignore="VisualLintTextFieldSize" />
+
+
+            <!-- ================================================= -->
+            <!-- USN -->
+            <!-- ================================================= -->
+
+            <TextView
+                android:id="@+id/lblUSN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxWidth="488dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/label_usn_caps"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etUSN"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="14dp"
+                android:autofillHints="none"
+                android:background="@drawable/bg_input"
+                android:hint="@string/hint_usn"
+                android:imeOptions="actionNext"
+                android:inputType="textCapCharacters"
+                android:maxWidth="488dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textColor="@color/input_text"
+                android:textColorHint="#757575"
+                android:textSize="14sp"
+                tools:ignore="VisualLintTextFieldSize" />
+
+
+            <!-- ================================================= -->
+            <!-- EMAIL -->
+            <!-- ================================================= -->
+
+            <TextView
+                android:id="@+id/lblEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxWidth="488dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/label_email_id_caps"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="14dp"
+                android:autofillHints="emailAddress"
+                android:background="@drawable/bg_input"
+                android:hint="@string/hint_email_address"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:maxWidth="488dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textColor="@color/input_text"
+                android:textColorHint="#757575"
+                android:textSize="14sp"
+                tools:ignore="VisualLintTextFieldSize" />
+
+
+            <!-- ================================================= -->
+            <!-- MOBILE -->
+            <!-- ================================================= -->
+
+            <TextView
+                android:id="@+id/lblPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxWidth="488dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/label_mobile_number_caps"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etPhone"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="5dp"
+                android:autofillHints="phone"
+                android:background="@drawable/bg_input"
+                android:hint="@string/hint_mobile_number"
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+                android:maxWidth="488dp"
+                android:maxLength="10"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textColor="@color/input_text"
+                android:textColorHint="#757575"
+                android:textSize="14sp"
+                tools:ignore="VisualLintTextFieldSize" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxWidth="488dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/label_phone_format"
+                android:textColor="@color/text_secondary"
+                android:textSize="11sp"
+                android:layout_marginBottom="16dp" />
+
+
+            <!-- ================================================= -->
+            <!-- GENDER -->
+            <!-- ================================================= -->
+
+            <TextView
+                android:id="@+id/lblGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxWidth="488dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/label_gender_caps"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"
+                android:labelFor="@+id/rgGender" />
+
+            <RadioGroup
+                android:id="@+id/rgGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="18dp">
+
+                <RadioButton
+                    android:id="@+id/rbMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option_male"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    android:buttonTint="@color/white" />
+
+                <RadioButton
+                    android:id="@+id/rbFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option_female"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    android:buttonTint="@color/white"
+                    android:layout_marginStart="12dp" />
+
+                <RadioButton
+                    android:id="@+id/rbOther"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option_other"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    android:buttonTint="@color/white"
+                    android:layout_marginStart="12dp" />
+
+            </RadioGroup>
+
+
+            <!-- ================================================= -->
+            <!-- SPECIALIZATION -->
+            <!-- ================================================= -->
+
+            <TextView
+                android:id="@+id/lblSpecialization"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxWidth="488dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/label_specialization_caps"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"
+                android:labelFor="@+id/rgSpecialization" />
+
+            <RadioGroup
+                android:id="@+id/rgSpecialization"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="16dp">
+
+                <RadioButton
+                    android:id="@+id/rbGeneral"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option_general"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    android:buttonTint="@color/white"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/rbAIML"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option_ai_ml"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    android:buttonTint="@color/white" />
+
+                <RadioButton
+                    android:id="@+id/rbDataScience"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option_data_science"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    android:buttonTint="@color/white" />
+
+                <RadioButton
+                    android:id="@+id/rbCyberSecurity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option_cyber_security"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    android:buttonTint="@color/white" />
+
+            </RadioGroup>
+
+
+            <!-- ================================================= -->
+            <!-- SKILLS -->
+            <!-- ================================================= -->
+
+            <TextView
+                android:id="@+id/lblSkills"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxWidth="488dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/label_skills_interests_caps"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"
+                android:labelFor="@+id/cbProgramming" />
+
+            <CheckBox
+                android:id="@+id/cbProgramming"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skill_programming"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:buttonTint="@color/white"
+                tools:ignore="VisualLintButtonSize" />
+
+            <CheckBox
+                android:id="@+id/cbIoT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skill_iot"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:buttonTint="@color/white"
+                tools:ignore="VisualLintButtonSize" />
+
+            <CheckBox
+                android:id="@+id/cbAI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skill_ai"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:buttonTint="@color/white"
+                tools:ignore="VisualLintButtonSize" />
+
+            <CheckBox
+                android:id="@+id/cbWeb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skill_web"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:buttonTint="@color/white"
+                android:layout_marginBottom="14dp"
+                tools:ignore="VisualLintButtonSize" />
+
+
+            <!-- ================================================= -->
+            <!-- NOTIFICATIONS -->
+            <!-- ================================================= -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="14dp">
+
+                <TextView
+                    android:id="@+id/lblNotifications"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/label_notifications_caps"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:labelFor="@+id/toggleNotifications" />
+
+                <ToggleButton
+                    android:id="@+id/toggleNotifications"
+                    android:layout_width="85dp"
+                    android:layout_height="48dp"
+                    android:textOn="@string/toggle_on"
+                    android:textOff="@string/toggle_off"
+                    android:checked="true" />
+
+            </LinearLayout>
+
+
+            <!-- ================================================= -->
+            <!-- TERMS -->
+            <!-- ================================================= -->
+
+            <CheckBox
+                android:id="@+id/cbTerms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_terms"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:buttonTint="@color/white"
+                android:layout_marginBottom="18dp"
+                tools:ignore="VisualLintButtonSize" />
+
+
+            <!-- ================================================= -->
+            <!-- BUTTONS -->
+            <!-- ================================================= -->
+
+            <LinearLayout
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnRegister"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="@string/btn_register_short"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_dark"
+                    android:backgroundTint="@color/white"
+                    android:minWidth="120dp" />
+
+                <Button
+                    android:id="@+id/btnClear"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="@string/btn_reset"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_dark"
+                    android:backgroundTint="@color/white"
+                    android:minWidth="100dp"
+                    android:layout_marginStart="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main Theme -->
+    <color name="primary">#5B50C8</color>
+    <color name="primary_dark">#4338A8</color>
+    <color name="accent">#2196F3</color>
+
+    <!-- Background -->
+    <color name="background">#FFFFFF</color>
+    <color name="form_background">#6255C7</color>
+
+    <!-- Input -->
+    <color name="input_background">#FFFFFF</color>
+    <color name="input_text">#000000</color>
+    <color name="input_hint">#777777</color>
+
+    <!-- Text -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#F1EFFF</color>
+
+    <!-- Card -->
+    <color name="card_background">#FFFFFF</color>
+
+    <!-- Border -->
+    <color name="border">#C8C8C8</color>
+
+    <!-- Success -->
+    <color name="success">#16805C</color>
+    <color name="success_light">#E8F7F1</color>
+
+    <!-- Common -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+</resources>
