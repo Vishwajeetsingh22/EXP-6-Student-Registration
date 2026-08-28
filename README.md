@@ -162,3 +162,4 @@ Name: VISHWAJEET SINGH
 USN: 25MCAR0219
 Course: MCA
 Subject: Mobile Application Development
+College: Jain (Deemed-to-be University)
