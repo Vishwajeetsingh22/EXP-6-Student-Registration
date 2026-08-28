@@ -202,12 +202,14 @@ Notifications: ON
 Registration ID: STU123456
 
 ## 🖥️ Screenshots
-<img width="1370" height="729" alt="Screenshot 2026-08-28 211627" src="https://github.com/user-attachments/assets/a2469b58-fe19-4e73-87b1-4ba1b1309f78" />
-<img width="1373" height="731" alt="Screenshot 2026-08-28 211557" src="https://github.com/user-attachments/assets/5613675f-dbd9-4239-81e8-c1a3b746e5d7" />
-<img width="720" height="1600" alt="WhatsApp Image 2026-08-28 at 9 17 34 PM" src="https://github.com/user-attachments/assets/9a748dee-ec0d-4ef8-a9cb-6b9044381c69" />
 
 
-https://github.com/user-attachments/assets/a8959bb6-3e6a-457a-83f3-c0aa56b7bd61
+https://github.com/user-attachments/assets/159572cf-1d34-4712-bbd4-9f4cb9472af5
+
+<img width="720" height="1600" alt="WhatsApp Image 2026-08-28 at 9 17 34 PM" src="https://github.com/user-attachments/assets/264ef161-29c4-4f3d-9962-99b93e8cca52" />
+<img width="1370" height="729" alt="Screenshot 2026-08-28 211627" src="https://github.com/user-attachments/assets/3dc5eb4d-848e-4e7c-9435-a1caacfd921c" />
+<img width="1373" height="731" alt="Screenshot 2026-08-28 211557" src="https://github.com/user-attachments/assets/01c608de-be02-4992-be57-e173808f8bb4" />
+
 
 
 
